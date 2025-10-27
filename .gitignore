@@ -1,6 +1,8 @@
 # Solution files
 *.soln
 
+.vscode/
+
 # Prerequisites
 *.d
 
