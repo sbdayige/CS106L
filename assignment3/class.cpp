@@ -17,6 +17,10 @@ CoffeeCup::CoffeeCup(const std::string& owner, double volume_ml, bool is_hot)
   clampVolume();
 }
 
+// Destructor: nothing special to clean up for this simple class,
+// implemented explicitly for the assignment requirement.
+CoffeeCup::~CoffeeCup() {}
+
 // Getters
 std::string CoffeeCup::getOwner() const { return owner_; }
 double CoffeeCup::getVolume() const { return volume_ml_; }

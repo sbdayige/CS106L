@@ -16,6 +16,9 @@ public:
   // Custom constructor (takes parameters)
   CoffeeCup(const std::string& owner, double volume_ml, bool is_hot);
 
+  // Destructor
+  ~CoffeeCup();
+
   // Getters (const-correct)
   std::string getOwner() const;
   double getVolume() const;
@@ -29,6 +32,7 @@ public:
   // A small public action
   void pour(double amount_ml); // remove amount from cup
 
+  
 private:
   // Private member fields
   std::string owner_;
