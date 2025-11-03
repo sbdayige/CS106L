@@ -8,6 +8,14 @@
  * (unless you are really curious and want to!)                              *
  * ========================================================================= */
 
+/*
+ * 中文注释：
+ * CS106L 作业 3：创建一个类
+ * 作者：Fabio Ibanez，Jacob Roberts-Baca 作了部分修改。
+ *
+ * 不用担心此处以下的内容（除非你非常好奇并想深入了解！）。
+ */
+
 #include <fstream>
 #include <iostream>
 #include <sstream>

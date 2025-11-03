@@ -5,7 +5,11 @@ Make a Class
 ------------
 
 Q1. What’s const-correctness and why is it important?
-A1. TODO
 
+Q1: What’s const-correctness and why is it important?
+Const-correctness 是在代码中恰当地使用 const 关键字来标注不会修改对象或变量的函数和数据。它能帮助编译器捕捉意外修改、提高代码可读性并允许在更多上下文（例如常量对象或线程安全场景）安全地重用函数。
+
+Q2: Is your class const-correct? How do you know?
+在 `CoffeeCup` 中，我为访问器方法（`getOwner`、`getVolume`、`isHot`）标记了 `const`，表明这些函数不会修改对象的状态。其它会修改成员的函数（如 `setVolume`、`setOwner`、`pour`）未标记为 const，因此类在接口上遵循了 const-correctness 的原则。
 Q2. Is your class const-correct? How do you know?
 A2. TODO
